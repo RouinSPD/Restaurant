@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437A28442A11C57900972BA5 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A28432A11C57900972BA5 /* MenuItemDetailViewController.swift */; };
+		FABA62612980A38200086897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA62602980A38200086897 /* AppDelegate.swift */; };
+		FABA62632980A38200086897 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA62622980A38200086897 /* SceneDelegate.swift */; };
+		FABA62682980A38200086897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABA62662980A38200086897 /* Main.storyboard */; };
+		FABA626A2980A38500086897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABA62692980A38500086897 /* Assets.xcassets */; };
+		FABA626D2980A38500086897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABA626B2980A38500086897 /* LaunchScreen.storyboard */; };
+		FABA62752980A7FC00086897 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA62742980A7FC00086897 /* CategoryTableViewController.swift */; };
+		FABA62772980A80A00086897 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA62762980A80A00086897 /* MenuTableViewController.swift */; };
+		FABA62792980A81400086897 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA62782980A81400086897 /* OrderTableViewController.swift */; };
+		FABA627B2980A98700086897 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA627A2980A98700086897 /* MenuViewController.swift */; };
+		FABA627D2980AA6C00086897 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA627C2980AA6C00086897 /* MenuItem.swift */; };
+		FABA627F2980AB9400086897 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA627E2980AB9400086897 /* ResponseModels.swift */; };
+		FABA62812980AD6B00086897 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA62802980AD6B00086897 /* Order.swift */; };
+		FABA62832980AE1100086897 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA62822980AE1100086897 /* MenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		437A28432A11C57900972BA5 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		FABA625D2980A38200086897 /* myRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABA62602980A38200086897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FABA62622980A38200086897 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FABA62672980A38200086897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABA62692980A38500086897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABA626C2980A38500086897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABA626E2980A38500086897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABA62742980A7FC00086897 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		FABA62762980A80A00086897 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		FABA62782980A81400086897 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		FABA627A2980A98700086897 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FABA627C2980AA6C00086897 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		FABA627E2980AB9400086897 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		FABA62802980AD6B00086897 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FABA62822980AE1100086897 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABA625A2980A38200086897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABA62542980A38200086897 = {
+			isa = PBXGroup;
+			children = (
+				FABA625F2980A38200086897 /* myRestaurant */,
+				FABA625E2980A38200086897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABA625E2980A38200086897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABA625D2980A38200086897 /* myRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABA625F2980A38200086897 /* myRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				FABA62602980A38200086897 /* AppDelegate.swift */,
+				FABA62622980A38200086897 /* SceneDelegate.swift */,
+				FABA62662980A38200086897 /* Main.storyboard */,
+				437A28432A11C57900972BA5 /* MenuItemDetailViewController.swift */,
+				FABA627C2980AA6C00086897 /* MenuItem.swift */,
+				FABA627E2980AB9400086897 /* ResponseModels.swift */,
+				FABA62802980AD6B00086897 /* Order.swift */,
+				FABA62822980AE1100086897 /* MenuController.swift */,
+				FABA627A2980A98700086897 /* MenuViewController.swift */,
+				FABA62742980A7FC00086897 /* CategoryTableViewController.swift */,
+				FABA62762980A80A00086897 /* MenuTableViewController.swift */,
+				FABA62782980A81400086897 /* OrderTableViewController.swift */,
+				FABA62692980A38500086897 /* Assets.xcassets */,
+				FABA626B2980A38500086897 /* LaunchScreen.storyboard */,
+				FABA626E2980A38500086897 /* Info.plist */,
+			);
+			path = myRestaurant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABA625C2980A38200086897 /* myRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABA62712980A38500086897 /* Build configuration list for PBXNativeTarget "myRestaurant" */;
+			buildPhases = (
+				FABA62592980A38200086897 /* Sources */,
+				FABA625A2980A38200086897 /* Frameworks */,
+				FABA625B2980A38200086897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myRestaurant;
+			productName = myRestaurant;
+			productReference = FABA625D2980A38200086897 /* myRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABA62552980A38200086897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FABA625C2980A38200086897 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FABA62582980A38200086897 /* Build configuration list for PBXProject "myRestaurant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABA62542980A38200086897;
+			productRefGroup = FABA625E2980A38200086897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABA625C2980A38200086897 /* myRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABA625B2980A38200086897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABA626D2980A38500086897 /* LaunchScreen.storyboard in Resources */,
+				FABA626A2980A38500086897 /* Assets.xcassets in Resources */,
+				FABA62682980A38200086897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABA62592980A38200086897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABA62832980AE1100086897 /* MenuController.swift in Sources */,
+				FABA627D2980AA6C00086897 /* MenuItem.swift in Sources */,
+				FABA62772980A80A00086897 /* MenuTableViewController.swift in Sources */,
+				FABA627F2980AB9400086897 /* ResponseModels.swift in Sources */,
+				FABA62812980AD6B00086897 /* Order.swift in Sources */,
+				FABA627B2980A98700086897 /* MenuViewController.swift in Sources */,
+				FABA62792980A81400086897 /* OrderTableViewController.swift in Sources */,
+				FABA62612980A38200086897 /* AppDelegate.swift in Sources */,
+				FABA62632980A38200086897 /* SceneDelegate.swift in Sources */,
+				437A28442A11C57900972BA5 /* MenuItemDetailViewController.swift in Sources */,
+				FABA62752980A7FC00086897 /* CategoryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FABA62662980A38200086897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABA62672980A38200086897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABA626B2980A38500086897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABA626C2980A38500086897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABA626F2980A38500086897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FABA62702980A38500086897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABA62722980A38500086897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myRestaurant/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.myRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FABA62732980A38500086897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myRestaurant/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.myRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABA62582980A38200086897 /* Build configuration list for PBXProject "myRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABA626F2980A38500086897 /* Debug */,
+				FABA62702980A38500086897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABA62712980A38500086897 /* Build configuration list for PBXNativeTarget "myRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABA62722980A38500086897 /* Debug */,
+				FABA62732980A38500086897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABA62552980A38200086897 /* Project object */;
+}
